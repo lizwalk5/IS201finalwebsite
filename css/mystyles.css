@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(216, 232, 253);
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige !important;
+}
+.font-weight-bold {
+    color: beige !important;
+}
+
+/* div styles */
+.common {
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    position: absolute;
+    text-align: center;
+}
+.top {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+}
+.middle {
+    top: 100px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    color: navy !important;
+    font-size: xx-large;
+}
+.bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    text-align: center !important;
+    background-color: rgb(137, 138, 139);
+    font-style: italic;
+    font-weight: bold;
+}
+.imgcenter {
+    display: block;
+    margin: auto;
+    border: 3px solid rgb(235, 166, 201) !important; /* Border needs a style and width */
+    width: 800px !important; /* Set the width to 25% of the viewport width */
+}
+.gray-text{
+    color: navy;
+}
